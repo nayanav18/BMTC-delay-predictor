@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[11]:
-
-
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
@@ -272,10 +266,3 @@ def update_map(route):
 
 if __name__ == '__main__':
     app.run(debug=True, port=8058)
-
-
-# In[ ]:
-
-
-
-
